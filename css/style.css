@@ -80,3 +80,15 @@ main {
 .tag.sustainability {
     background-color: #129169;
 }
+
+/* Didascalia */
+
+.price.current {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.price::after {
+    content: "\20AC";
+}
