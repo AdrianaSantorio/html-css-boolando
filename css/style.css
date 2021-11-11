@@ -54,3 +54,29 @@ main {
     right: 0;
 } 
 
+.favourite:hover {
+    color: red;
+}
+
+/* tags */
+.tags {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.tag {
+    display: inline-block;
+    padding: 3px;
+    color: white;
+    border-radius: 1px;
+    font-size: 12px;
+}
+
+.tag.sales {
+    background-color: #EB0037;
+}
+
+.tag.sustainability {
+    background-color: #129169;
+}
