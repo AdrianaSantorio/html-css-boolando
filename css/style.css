@@ -6,7 +6,7 @@
 
 /* general */
 body {
-    padding: 30px 0;
+    padding: 20px 0;
 } 
 
 main {
@@ -21,8 +21,10 @@ main {
 .item{
     display: inline-block;
     width: 33%;
-    padding: 5px;
+    padding: 0 5px;
 }
+
+/* item-picture */
 
 .item-picture {
     display: inline-block;
@@ -31,5 +33,24 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
-    
+
+.levi {
+    background-image: url(../img/1.webp);
+}
+
+/* heart */
+
+.favourite {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 0;
+} 
+
