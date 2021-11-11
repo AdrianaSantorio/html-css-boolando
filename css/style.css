@@ -9,6 +9,8 @@
 main {
     width: 80%;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* utilities */
@@ -122,6 +124,11 @@ main {
 }
 
 /* Didascalia */
+
+.item-specs{
+    margin: 2px 0;
+    font-size: 0.8em;
+}
 
 .price.current {
     text-decoration: none;
