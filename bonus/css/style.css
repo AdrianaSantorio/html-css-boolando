@@ -45,15 +45,15 @@ img{
     height: 520px;
 }
 
-.b {
+.secondary-image {
     display:none
 }
 
-.item-picture:hover .b{
+.item-picture:hover .secondary-image{
     display: inline-block;
 }
 
-.item-picture:hover .a{
+.item-picture:hover .main-image{
     display: none;
 }
 
